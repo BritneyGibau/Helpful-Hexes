@@ -1,0 +1,275 @@
+
+/******************* general *******************/
+/***********************************************/
+/* adjusts for margins and padding in the grid. */
+
+
+
+main li a p{
+  font-family: 'Cormorant Garamond', serif;
+  color: #2F196D;
+  font-size: 2rem;
+  margin: 0.57em 0;
+  margin: 1.2em;
+  text-decoration:none;
+}
+
+main li a {
+    font-family: 'Berkshire Swash', cursive;
+    color:#D1C4E0
+    font-size:1rem;
+    margin: 0;
+    text-decoration: none;
+}
+
+main li a h2 {
+    font-size:3rem;
+}
+
+main li {
+  margin-bottom: 1rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #BDBDBD;
+  box-sizing: border-box;
+}
+
+main ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+}
+
+
+
+
+
+
+
+
+
+/* HEADER DETAILS */
+
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.logo{
+  position: absolute; 
+  z-index: 11;
+  width: 60%;
+  top: 1.5rem;
+  left:3%;
+}
+
+nav{
+  position: absolute;
+  width: 20%;
+  top:2rem;
+  right:2%;
+  z-index:12;
+}
+
+nav a {
+  color: #eee;
+  text-align:right;
+   font-family: 'Berkshire Swash', cursive;
+font-size: 3rem;
+text-decoration:none;
+
+}
+
+
+
+
+/*stuff*/
+
+main {
+    overflow: hidden;
+    padding: 1.5rem 5%;
+    margin-top: 10rem;
+}
+
+.article img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+.fa-bars {
+  color: #eee;
+  float: right;
+  margin-top: -7rem;
+  
+}
+
+.fa-instagram{color:#eee;
+margin-right:17px;
+
+}
+
+.fa-twitter{color:#eee;
+margin-top:22px;
+margin-right:17px;
+
+}
+
+.fa-pinterest{
+  color:#eee;
+margin-right:17px;
+
+}
+
+
+.fa-tumblr{
+  color:#eee;
+margin-left:17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************************************/
+/*****************background ********************/
+/***********************************************/
+
+body{
+
+  background-image: url(../img/BACKTIL.svg);
+  background-size:cover;
+
+  padding: -20px 0;
+}
+
+main{background-color:#eee;
+    margin: 0;
+  margin-top: 25rem;
+  margin-bottom: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************************************/
+/****** footer **********/
+/***********************************************/
+footer {
+  overflow: hidden;
+  padding: .5rem 5%;
+  background-color: #2F196D;
+}
+
+.copyright {
+  margin: 0;
+  text-transform: uppercase;
+  color:#eee;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+}
+
+.nav-social {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-social li {
+  display: inline-block;
+  margin: 0 2.5% 0 0;
+}
+
+.nav-social a {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #eee;
+  font-family: 'Cormorant Garamond', serif;
+  font-size:1.3rem;
+
+
+}
+
+@media screen and (min-width:37.5rem){
+  .copyright {
+    float: left;
+    width: 50%;
+  }
+
+  @media screen and(max-width:60rem
+    ){
+
+  }
+
+
+  .nav-social {
+    float: right;
+    width: 50%;
+    text-align: right;
+    color:#eee;
+  }
+  .nav-social li {
+    margin: 0 0 0 2.5%;
+  }
+
+
+
+
+
+/***********************************************/
+/****** semantic tags & helper classes **********/
+/***********************************************/
+
+ 
+
+
+p{
+  padding: 5px 0;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+

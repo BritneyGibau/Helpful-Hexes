@@ -1,0 +1,174 @@
+body,html{
+  height:100%;
+}
+
+body{
+  background-image: url(../img/BACKTIL.svg);
+  background-size:cover;
+}
+
+
+/* HEADER DETAILS */
+
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.logo{
+  position: absolute; 
+  z-index: 11;
+  width: 60%;
+  top: 1.5rem;
+  left:3%;
+}
+
+nav{
+  position: absolute;
+  width: 20%;
+  top:2rem;
+  right:2%;
+  z-index:12;
+}
+
+nav a {
+  color: #DBC1E5;
+  text-align:right;
+   font-family: 'Berkshire Swash', cursive;
+font-size: 3rem;
+text-decoration:none;
+
+}
+
+
+
+/* MAIN SECTION DETAILS */
+main{
+  position:absolute;
+  top:50%;
+  left:3%;
+  transform: translateY(-50%);
+  z-index:6;
+}
+
+
+main ul {
+  font-family: 'Berkshire Swash', cursive;
+  font-size:2.7rem;
+  color: #eee;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+main a{
+  color:#eee;
+  text-decoration:none;
+
+}
+
+main h2{
+  color: #DBC1E5;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 5.4rem;
+  padding-bottom: 0em;
+}
+
+.avatar{
+  display: none; 
+}
+
+.smoke{
+  display:none;
+}
+
+
+
+/* FOOTER SECTION DETAILS */
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: .5rem 5%;
+  background-color: #2F196D;
+  z-index: 20;
+}
+
+.copyright {
+  margin: 0;
+  text-transform: uppercase;
+  color:#eee;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+}
+
+.nav-social {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-social li {
+  display: inline-block;
+  margin: 0 2.5% 0 0;
+}
+
+.nav-social a {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #eee;
+  font-family: 'Cormorant Garamond', serif;
+  font-size:1.3rem;
+}
+
+.fa-instagram{color:#eee;
+margin-right:17px;
+}
+
+.fa-twitter{color:#eee;
+margin-top:22px;
+margin-right:17px;
+}
+
+.fa-pinterest{
+  color:#eee;
+margin-right:17px;
+}
+
+.fa-tumblr{
+  color:#eee;
+margin-left:17px;
+}
+
+
+/* MEDIA QUERIES FOR WIDESCREEN DETAILS= */
+
+@media screen and (min-width: 47.5rem){
+  
+  .avatar{
+    display: block;
+    position: absolute; 
+    z-index: 9;
+    width: 75%;
+    bottom:0;
+    right:0;
+  }
+  
+  .smoke{ display: block; 
+    position: absolute; 
+    z-index: 5;
+    width: 100%;
+    left:0%;
+    bottom:0;
+  }
+
+}
+
+
+
+

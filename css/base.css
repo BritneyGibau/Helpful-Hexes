@@ -1,0 +1,418 @@
+
+/******************* general *******************/
+/***********************************************/
+/* adjusts for margins and padding in the grid. */
+
+
+p{
+  font-family: 'Cormorant Garamond', serif;
+  color: #2F196D;
+  font-size: 1.8rem;
+  margin: 0.57em 0;
+  margin: 1.2em;
+}
+
+.imageHander {
+  float: right;
+  margin: 1em;
+}
+
+
+.imageHelper {
+  display:block;
+  margin:auto;
+ 
+}
+
+.imageHender {
+ width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/***********************************************/
+/*******************  header  ******************/
+/***********************************************/
+header {
+  display: block;
+  margin: auto;
+
+}
+
+header h1{ text-align: center;
+  padding: .2em;
+  font-weight: 900;
+  color: #eee;
+  font-size: 4.6rem;
+  font-family: 'Berkshire Swash', cursive;
+
+}
+
+header h2{
+  text-align: center;
+
+  padding: -3em;
+  color: #eee; 
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+
+
+
+header img {
+  margin-bottom: -8rem;
+  margin-left: -4rem;
+  width: 70%;
+}
+
+
+
+
+
+h1{ text-align: left;
+  margin-bottom: -.9em;
+
+  font-weight: 900;
+  color: #2F196D;
+  font-size: 3rem;
+  font-family: 'Berkshire Swash', cursive;
+  
+
+}
+
+
+
+h2{
+  text-align: left;
+
+
+  color:#2F196D; 
+  font-weight: 200;
+  font-size: 2.2rem;
+  font-family: 'Cormorant Garamond', serif;
+  margin-top:1em;
+  
+}
+
+h3{ text-align: left;
+  margin-bottom: -1.3em;
+  padding: .2em;
+  font-weight: 900;
+  color: #eee;
+  font-size: 2.5rem;
+  font-family: 'Berkshire Swash', cursive;
+
+}
+
+
+
+header a {
+  color: #eee;
+  text-decoration: none;
+
+}
+
+main {
+    overflow: hidden;
+    padding: 1.5rem 5%;
+}
+
+.article img {
+  width: 100%;
+}
+
+@media screen and (min-width:47.5rem){
+
+
+    .article {
+      float: left;
+      width: 60%;
+    }
+    .ads{
+      float: right;
+      width: 35%;
+    }
+
+}
+
+.adplacer1{
+ padding-left:.8em;
+  width:30%;
+  align-content:left;
+
+
+}
+
+.adplacer2{
+  width:30%;
+  align-content:center;
+
+}
+
+.adplacer3{
+  width:30%;
+  align-content: center;
+}
+
+
+
+@media screen and (min-width:47.5rem){
+.adplacer1{
+  padding: 1em;
+  width:100%;
+
+}
+
+.adplacer2{
+  padding: 1em;
+  width:100%;
+
+}
+
+.adplacer3{
+  padding:1em;
+  width:100%;
+}
+}
+
+
+
+
+
+.fa-bars {
+  color: #eee;
+  float: right;
+  margin-top: -7rem;
+  
+}
+
+.fa-instagram{color:#eee;
+margin-right:17px;
+
+}
+
+.fa-twitter{color:#eee;
+margin-top:22px;
+margin-right:17px;
+
+}
+
+.fa-pinterest{
+  color:#eee;
+margin-right:17px;
+
+}
+
+
+.fa-tumblr{
+  color:#eee;
+margin-left:17px;
+}
+
+
+
+
+
+
+
+/***********************************************/
+/*******************  nav  *********************/
+/***********************************************/
+nav {
+  background-color: #7165B1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  
+}
+
+nav ol {
+  text-align: center;
+  padding: 1.1em;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+  color: #eee;
+  text-decoration: none;
+  padding: 1.3em .7em;
+}
+
+nav a:hover {
+  background: #eee;
+  color: #541726;
+
+}
+
+
+
+
+.scroll a {
+  text-decoration: none;
+  font-family: 'Berkshire Swash', cursive;
+font-size:2rem;
+
+}
+
+
+
+    .scrollleft {
+      float: left;
+      width: 50%;
+    }
+    .scrollright{
+      float: right;
+      text-align:right;
+      width: 50%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************************************/
+/*****************background ********************/
+/***********************************************/
+
+body{
+  /*background-color: #333;
+  background-image: url('../img/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;*/
+  background: linear-gradient(#2B2A6A, #7366AE);
+  padding: -20px 0;
+}
+
+main{background-color:#eee;
+    margin: 0;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************************************/
+/****** footer **********/
+/***********************************************/
+footer {
+  overflow: hidden;
+  padding: .5rem 5%;
+  background-color: #2F196D;
+}
+
+.copyright {
+  margin: 0;
+  text-transform: uppercase;
+  color:#eee;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+}
+
+.nav-social {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-social li {
+  display: inline-block;
+  margin: 0 2.5% 0 0;
+}
+
+.nav-social a {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #eee;
+  font-family: 'Cormorant Garamond', serif;
+  font-size:1.3rem;
+
+
+}
+
+@media screen and (min-width:37.5rem){
+  .copyright {
+    float: left;
+    width: 50%;
+  }
+}
+
+
+  .nav-social {
+    float: right;
+    width: 50%;
+    text-align: right;
+    color:#eee;
+  }
+  .nav-social li {
+    margin: 0 0 0 2.5%;
+  }
+
+
+
+
+
+/***********************************************/
+/****** semantic tags & helper classes **********/
+/***********************************************/
+
+ 
+
+
+p{
+  padding: 8px 0;
+}
+
+
+
+
+
+
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+
